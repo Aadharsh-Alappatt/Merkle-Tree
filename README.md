@@ -38,9 +38,17 @@ It contains four variables:<br>
 2. If the tree is null then we will return null.
 3. If the tree->key is equal to the key we will return the tree.
 4. If the key is smaller than tree->key then we will return find(tree->left, key)
-5. else return find (tree->right, key)<br><br>
+5. Else return find (tree->right, key)<br><br>
 
 #### ***b)	Add Node Function:***
+1. We will take key and value as parameters.
+2. Take the hash(key) and store it in a variable called index.
+3. Store (struct node*) arr[index]. Head in a pointer called tree of datatype node.
+4. Create a new node with its key as key and value as value and both links as null.
+5. If the tree is null then assign the new node to the head and increment the size by 1.
+6. If the tree is not null then we will check if the key is already present in the tree using the find function.
+7. If the key is already present in the tree then we will update the value.
+8. If it is not present in the tree then we will use the insert function to insert the element.<br><br>
 
 
 
@@ -58,13 +66,13 @@ It contains four variables:<br>
 2. If the tree is null then return null.
 3. If the key is smaller than the tree->key then tree->left is equal to remove (tree->left, key) and return tree.
 4. If the key is greater than the tree->key then tree->right is equal to remove (tree->right, key) and return tree.
-5. else if the tree->left is equal to null and the tree->right is equal to null then decrement the size and return tree->left.
-6. else if the tree->left is not equal to null and the tree->right is equal to null then decrement the size and return tree->left.
-7. else if tree->left is equal to null and tree->right is not equal to null then decrement the size and return tree->right.
-8. else assign tree->left to a pointer called left of data type node.
+5. Else if the tree->left is equal to null and the tree->right is equal to null then decrement the size and return tree->left.
+6. Else if the tree->left is not equal to null and the tree->right is equal to null then decrement the size and return tree->left.
+7. Else if tree->left is equal to null and tree->right is not equal to null then decrement the size and return tree->right.
+8. Else assign tree->left to a pointer called left of data type node.
 9. While left->right is not equal to null, left is equal to left->right.
 10. tree->key is equal to left->key.
 11. tree->value is equal to left->value.
 12. tree->left is equal to remove(tree->left, tree->key).
-13. Return tree.
+13. Return tree.<br><br>
 
