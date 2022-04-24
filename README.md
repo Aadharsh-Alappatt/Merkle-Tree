@@ -7,6 +7,7 @@ Merkle tree is a fundamental part of blockchain technology. It is a mathematical
 
 The concept of Merkle Tree is named after Ralph Merkle, who patented the idea in 1979. Fundamentally, it is a data structure tree in which every leaf node labelled with the hash of a data block, and the non-leaf node labelled with the cryptographic hash of the labels of its child nodes. The leaf nodes are the lowest node in the tree.
 
+<br>
 
 ## ARCHITECTURE:<br>
 ### *HASH FUNCTION:*<br>
@@ -32,5 +33,7 @@ It contains four variables:<br>
 *	It contains a key variable.<br>
 *	It contains a value variable.<br>
 *	It contains two links.<br>
+
+<br>
 
 
