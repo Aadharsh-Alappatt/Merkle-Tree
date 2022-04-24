@@ -33,25 +33,25 @@ It contains four variables:<br>
 <br>
 
 ## ALGORITHM:
-#### **a) Find Function:**
+#### ***a) Find Function:***
 1. We will take the tree and key as parameters.
 2. If the tree is null then we will return null.
 3. If the tree->key is equal to the key we will return the tree.
 4. If the key is smaller than tree->key then we will return find(tree->left, key)
 5. else return find (tree->right, key)<br>
 
-#### **b)	Add Node Function:**
+#### ***b)	Add Node Function:***
 
 
 
-#### **c)	Insert Function:**
+#### ***c)	Insert Function:***
 
 
 
 
-#### **d)	Delete a Node Function:**
+#### ***d)	Delete a Node Function:***
 
 
 
-#### **e)	Remove Function:**
+#### ***e)	Remove Function:***
 
