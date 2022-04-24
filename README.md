@@ -51,13 +51,22 @@ It contains four variables:<br>
 8. If it is not present in the tree then we will use the insert function to insert the element.<br><br>
 
 
-
 #### ***c)	Insert Function:***
-
-
+1. It will take tree and item pointers of node data type as parameters.
+2. If item->key is smaller than tree->key and tree->left is null then assign the item to tree->left.
+3. If item->key is smaller than tree->key and tree->left is not null then call insert function with tree->left and item as parameters.
+4. If item->key is greater than tree->key and tree->right is null then assign the item to tree->right.
+5. If item->key is greater than tree->key and tree->right is not null then call insert function with tree->right and item as parameters.<br><br>
 
 
 #### ***d)	Delete a Node Function:***
+1. We will take a key as a parameter.
+2. Take the hash(key) and store it in a variable called index.
+3. store (struct node*) arr[index]. Head in a pointer called tree of datatype node.
+4. If the tree is null then the key is not present.
+5. If the tree is not null then we will check if the key is already present in the 	 tree using the find function.
+6. If the find function returns null then the key is not present in the tree.
+7. If it is not null then we will use the remove function to delete the element.
 
 
 
