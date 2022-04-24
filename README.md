@@ -66,7 +66,7 @@ It contains four variables:<br>
 4. If the tree is null then the key is not present.
 5. If the tree is not null then we will check if the key is already present in the 	 tree using the find function.
 6. If the find function returns null then the key is not present in the tree.
-7. If it is not null then we will use the remove function to delete the element.
+7. If it is not null then we will use the remove function to delete the element.<br><br>
 
 
 
@@ -84,4 +84,10 @@ It contains four variables:<br>
 11. tree->value is equal to left->value.
 12. tree->left is equal to remove(tree->left, tree->key).
 13. Return tree.<br><br>
+
+## APPLICATIONS OF MERKLE TREE:
+* Apache Cassandra uses Merkle Trees to detect inconsistencies.<br>
+* Git uses a merkle tree to store its data.<br>
+*	Ethereum uses a Merkle Patricia Trie.<br>
+*	It is a fundamental part of the blockchain.<br>
 
