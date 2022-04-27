@@ -95,5 +95,7 @@ It contains four variables:<br>
 
 
 ## REFERENCES:
-
+* https://www.google.com/search?q=merkle+tree&rlz=1C1RLNS_enIN920IN920&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjA7LiGorT3AhVhR2wGHSsIB_kQ_AUoAXoECAIQAw&biw=1536&bih=714&dpr=1.25#imgrc=ZutP2t5dnaRryM<br>
+* https://www.geeksforgeeks.org/introduction-to-merkle-tree/#:~:text=Applications%3A,between%20replicas%20of%20entire%20databases.
+* https://www.investopedia.com/terms/m/merkle-tree.asp
 
