@@ -90,4 +90,7 @@ It contains four variables:<br>
 * Git uses a merkle tree to store its data.<br>
 *	Ethereum uses a Merkle Patricia Trie.<br>
 *	It is a fundamental part of the blockchain.<br>
+*	Merkle trees are useful in distributed systems where same data should exist in multiple places.<br>
+*	It is used in bitcoin and blockchain.<br>
+
 
