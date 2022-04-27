@@ -17,7 +17,7 @@ Hash function is a function that takes a set of inputs and maps them into a tabl
 
 
 ### <p align="center">**Merkle Tree Representation**</p>
-<p align="center"><img src="https://user-images.githubusercontent.com/76039017/164988923-3c1d3f50-1829-443f-ad49-64e915fecd34.png" alt="drawing" lenght="500" width="450" class="centerImage"/></p><br>
+<p align="center"><img src=https://user-images.githubusercontent.com/76039017/165520726-8b5b6fe7-34b0-47ff-b334-7b83e5319053.png alt="drawing" lenght="500" width="650" class="centerImage"/></p><br
 
 <p align="justify">
 Merkle trees are created by repeatedly calculating hashing pairs of nodes until there is only one hash left. This hash is called the Merkle Root, or the Root Hash. The Merkle Trees are constructed in a bottom-up approach. Every leaf node is a hash of transactional data, and the non-leaf node is a hash of its previous hashes. Merkle trees are in a binary tree, so it requires an even number of leaf nodes. If there is an odd number of transactions, the last hash will be duplicated once to create an even number of leaf nodes.<br><br>
